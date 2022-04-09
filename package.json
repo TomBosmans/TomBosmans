@@ -1,0 +1,21 @@
+{
+  "name": "tombosmans",
+  "version": "1.0.0",
+  "scripts": {
+    "blog:dev": "vitepress dev blog",
+    "blog:build": "vitepress build blog",
+    "blog:serve": "vitepress serve blog",
+    "blog:deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomBosmans/TomBosmans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomBosmans/TomBosmans/issues"
+  },
+  "homepage": "https://github.com/TomBosmans/TomBosmans#readme",
+  "dependencies": {
+    "vitepress": "^0.22.3"
+  }
+}
